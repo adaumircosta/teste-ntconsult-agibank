@@ -3,7 +3,7 @@ package br.com.ntconsult.file.listener.domain.services;
 import br.com.ntconsult.file.listener.domain.constants.FileConstant;
 import br.com.ntconsult.file.listener.domain.model.line.CalcReport;
 import br.com.ntconsult.file.listener.domain.model.line.Line;
-import br.com.ntconsult.file.listener.domain.services.File.FileService;
+import br.com.ntconsult.file.listener.domain.services.file.FileService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package br.com.ntconsult.file.listener.domain.services.Line;
+package br.com.ntconsult.file.listener.domain.services.line;
 
 import br.com.ntconsult.file.listener.domain.model.line.Line;
 

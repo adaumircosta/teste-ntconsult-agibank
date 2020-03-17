@@ -1,4 +1,4 @@
-package br.com.ntconsult.file.listener.domain.services.File;
+package br.com.ntconsult.file.listener.domain.services.file;
 
 import br.com.ntconsult.file.listener.domain.constants.FileConstant;
 import br.com.ntconsult.file.listener.domain.model.line.CalcReport;

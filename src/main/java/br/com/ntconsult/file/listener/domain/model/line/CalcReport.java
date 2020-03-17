@@ -9,14 +9,14 @@ import lombok.Setter;
 public class CalcReport {
 
     private long idMmostExpensiveSale;
-    private long sumBuyer;
+    private long sumCustomer;
     private long sumSaleman;
     private LineSalesmanFactory worstSalesman;
 
     public CalcReport(long idMmostExpensiveSale, long sumBuyer, long sumSaleman, Line worstSalesman) {
         super();
         this.idMmostExpensiveSale = idMmostExpensiveSale;
-        this.sumBuyer = sumBuyer;
+        this.sumCustomer = sumBuyer;
         this.sumSaleman = sumSaleman;
         this.worstSalesman = (LineSalesmanFactory) worstSalesman;
     }
@@ -28,7 +28,7 @@ public class CalcReport {
         builder.append("\nID da venda mais cara: ");
         builder.append(idMmostExpensiveSale);
         builder.append("\nQuantidade de clientes no arquivo de entrada: ");
-        builder.append(sumBuyer);
+        builder.append(sumCustomer);
         builder.append("\nQuantidade de vendedores no arquivo de entrada: ");
         builder.append(sumSaleman);
         builder.append("\nVendedor com menos vendas: ");

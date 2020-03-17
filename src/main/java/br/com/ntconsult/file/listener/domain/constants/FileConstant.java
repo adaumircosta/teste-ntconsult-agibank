@@ -15,9 +15,9 @@ public class FileConstant {
     public static final Integer PLACE_SALESMAN_NAME = 2;
     public static final Integer PLACE_SALESMAN_SALARY = 3;
 
-    public static final Integer PLACE_BUYER_CNPJ = 1;
-    public static final Integer PLACE_BUYER_NAME = 2;
-    public static final Integer PLACE_BUYER_BUSINESS_AREA = 3;
+    public static final Integer PLACE_CUSTOMER_CNPJ = 1;
+    public static final Integer PLACE_CUSTOMER_NAME = 2;
+    public static final Integer PLACE_CUSTOMER_BUSINESS_AREA = 3;
 
     //(0	;	1			;	2			;	3
     //(003	;	ID da venda	;	[items]		;	Nome do Vendedor)

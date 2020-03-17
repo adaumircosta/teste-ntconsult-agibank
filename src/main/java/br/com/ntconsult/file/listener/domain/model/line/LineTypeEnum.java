@@ -1,9 +1,9 @@
 package br.com.ntconsult.file.listener.domain.model.line;
 
-import br.com.ntconsult.file.listener.domain.model.line.parse.LineParseBuyer;
+import br.com.ntconsult.file.listener.domain.model.line.parse.LineParseCustomer;
 import br.com.ntconsult.file.listener.domain.model.line.parse.LineParseSales;
 import br.com.ntconsult.file.listener.domain.model.line.parse.LineParseSalesman;
-import br.com.ntconsult.file.listener.domain.services.Line.LineParse;
+import br.com.ntconsult.file.listener.domain.services.line.LineParse;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
 public enum LineTypeEnum {
 
     SALEMAN("001", new LineParseSalesman()),
-    BUYER("002", new LineParseBuyer()),
+    BUYER("002", new LineParseCustomer()),
     SALE("003", new LineParseSales());
 
     private final String lineId;

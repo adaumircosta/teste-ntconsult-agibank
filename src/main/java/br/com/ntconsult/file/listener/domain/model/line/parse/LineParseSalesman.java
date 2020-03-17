@@ -3,7 +3,7 @@ package br.com.ntconsult.file.listener.domain.model.line.parse;
 import br.com.ntconsult.file.listener.domain.constants.FileConstant;
 import br.com.ntconsult.file.listener.domain.model.factory.LineSalesmanFactory;
 import br.com.ntconsult.file.listener.domain.model.line.Line;
-import br.com.ntconsult.file.listener.domain.services.Line.LineParse;
+import br.com.ntconsult.file.listener.domain.services.line.LineParse;
 import org.springframework.stereotype.Component;
 
 @Component

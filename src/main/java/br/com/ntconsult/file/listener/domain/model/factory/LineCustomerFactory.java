@@ -17,13 +17,12 @@ public class LineCustomerFactory extends Line {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("LineBuyerFactory [cnpj=");
+		builder.append("cnpj: ");
 		builder.append(cnpj);
-		builder.append(", name=");
+		builder.append(", name: ");
 		builder.append(name);
-		builder.append(", businessArea=");
+		builder.append(", businessArea: ");
 		builder.append(businessArea);
-		builder.append("]");
 		return builder.toString();
 	}
 

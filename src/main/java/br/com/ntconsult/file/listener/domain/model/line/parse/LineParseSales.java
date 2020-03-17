@@ -7,7 +7,7 @@ import br.com.ntconsult.file.listener.domain.constants.FileConstant;
 import br.com.ntconsult.file.listener.domain.model.Item;
 import br.com.ntconsult.file.listener.domain.model.factory.LineSalesFactory;
 import br.com.ntconsult.file.listener.domain.model.line.Line;
-import br.com.ntconsult.file.listener.domain.services.Line.LineParse;
+import br.com.ntconsult.file.listener.domain.services.line.LineParse;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
